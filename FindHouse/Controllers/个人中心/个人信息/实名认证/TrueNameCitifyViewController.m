@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.navigationItem.title = @"真实身份认证";
+    //self.navigationItem.title = @"真实身份认证";
+    self.view.backgroundColor = [UIColor redColor];
     [self initValueAndView];
 
 }
