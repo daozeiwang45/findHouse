@@ -1,0 +1,10 @@
+platform :ios, '6.1'
+pod 'SDWebImage', '~>3.7'
+
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 2.0'
+pod 'pop', '~> 1.0'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'REMenu', '~> 1.10'
+pod 'IQKeyboardManager'
+pod 'ActionSheetPicker-3.0'

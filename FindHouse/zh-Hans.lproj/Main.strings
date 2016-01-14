@@ -1,0 +1,102 @@
+
+/* Class = "UILabel"; text = "右滑-收藏"; ObjectID = "2xk-mV-me5"; */
+"2xk-mV-me5.text" = "右滑-收藏";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "4Oo-W2-x49"; */
+"4Oo-W2-x49.title" = "Item";
+
+/* Class = "UILabel"; text = "左滑-跳过"; ObjectID = "6Nl-dk-um0"; */
+"6Nl-dk-um0.text" = "左滑-跳过";
+
+/* Class = "UINavigationItem"; title = "活动"; ObjectID = "7Xe-Xr-05Q"; */
+"7Xe-Xr-05Q.title" = "活动";
+
+/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "7mr-BV-Tpc"; */
+"7mr-BV-Tpc.normalTitle" = "忘记密码";
+
+/* Class = "UIButton"; normalTitle = "登   录"; ObjectID = "9id-UC-0g6"; */
+"9id-UC-0g6.normalTitle" = "登   录";
+
+/* Class = "UINavigationItem"; title = "我"; ObjectID = "EcB-1O-Cz0"; */
+"EcB-1O-Cz0.title" = "我";
+
+/* Class = "UINavigationItem"; title = "百计"; ObjectID = "EtG-zT-533"; */
+"EtG-zT-533.title" = "百计";
+
+/* Class = "UINavigationItem"; title = "登入页面"; ObjectID = "Id1-b0-e6j"; */
+"Id1-b0-e6j.title" = "登入页面";
+
+/* Class = "UILabel"; text = "都不喜欢？为你切换至住房查找"; ObjectID = "JEZ-FW-dEg"; */
+"JEZ-FW-dEg.text" = "都不喜欢？为你切换至住房查找";
+
+/* Class = "UILabel"; text = "都不喜欢？为你切换至住房查找"; ObjectID = "KdG-Us-bNy"; */
+"KdG-Us-bNy.text" = "都不喜欢？为你切换至住房查找";
+
+/* Class = "UIButton"; normalTitle = "同意"; ObjectID = "MIO-5I-stO"; */
+"MIO-5I-stO.normalTitle" = "同意";
+
+/* Class = "UILabel"; text = "忘记密码"; ObjectID = "MjB-Fk-vll"; */
+"MjB-Fk-vll.text" = "忘记密码";
+
+/* Class = "UILabel"; text = "亲爱的"; ObjectID = "QXd-oa-1sg"; */
+"QXd-oa-1sg.text" = "亲爱的";
+
+/* Class = "UILabel"; text = "厦门市湖里区"; ObjectID = "T3k-hb-suU"; */
+"T3k-hb-suU.text" = "厦门市湖里区";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "TCp-KU-naW"; */
+"TCp-KU-naW.normalTitle" = "获取验证码";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Z6r-Nw-zFd"; */
+"Z6r-Nw-zFd.title" = "Item";
+
+/* Class = "UILabel"; text = "亲爱的"; ObjectID = "ZMV-m2-iZH"; */
+"ZMV-m2-iZH.text" = "亲爱的";
+
+/* Class = "UINavigationItem"; title = "登入页面"; ObjectID = "bwh-WD-Rr6"; */
+"bwh-WD-Rr6.title" = "登入页面";
+
+/* Class = "UILabel"; text = "查看"; ObjectID = "c51-K9-eQI"; */
+"c51-K9-eQI.text" = "查看";
+
+/* Class = "UIButton"; normalTitle = "账号注册"; ObjectID = "dfw-dR-TCe"; */
+"dfw-dR-TCe.normalTitle" = "账号注册";
+
+/* Class = "UINavigationItem"; title = "登入页面"; ObjectID = "e8m-my-h2a"; */
+"e8m-my-h2a.title" = "登入页面";
+
+/* Class = "UILabel"; text = "厦门市湖里区"; ObjectID = "eU1-RN-Rj1"; */
+"eU1-RN-Rj1.text" = "厦门市湖里区";
+
+/* Class = "UILabel"; text = "左滑-跳过"; ObjectID = "fZk-9s-goA"; */
+"fZk-9s-goA.text" = "左滑-跳过";
+
+/* Class = "UIButton"; normalTitle = "注   册"; ObjectID = "fjH-f5-blO"; */
+"fjH-f5-blO.normalTitle" = "注   册";
+
+/* Class = "UILabel"; text = "右滑-收藏"; ObjectID = "gPu-gp-i1f"; */
+"gPu-gp-i1f.text" = "右滑-收藏";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "hvZ-z8-1Qj"; */
+"hvZ-z8-1Qj.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "小猫同学"; ObjectID = "jOg-d9-UFS"; */
+"jOg-d9-UFS.text" = "小猫同学";
+
+/* Class = "UIButton"; normalTitle = "阅读用户协议 >"; ObjectID = "mFy-Rh-Xy3"; */
+"mFy-Rh-Xy3.normalTitle" = "阅读用户协议 >";
+
+/* Class = "UILabel"; text = "小猫同学"; ObjectID = "pae-cw-wCW"; */
+"pae-cw-wCW.text" = "小猫同学";
+
+/* Class = "UIButton"; normalTitle = "重设密码"; ObjectID = "qU0-jo-G40"; */
+"qU0-jo-G40.normalTitle" = "重设密码";
+
+/* Class = "UILabel"; text = "根据行为记录，推荐了20套可快速入住的房源操作记录越多，我们的推荐越精准哦！"; ObjectID = "uoK-aa-HCy"; */
+"uoK-aa-HCy.text" = "根据行为记录，推荐了20套可快速入住的房源操作记录越多，我们的推荐越精准哦！";
+
+/* Class = "UILabel"; text = "根据行为记录，推荐了20套可快速出售的房源操作记录越多，我们的推荐越精准哦！"; ObjectID = "xJS-qA-Dxp"; */
+"xJS-qA-Dxp.text" = "根据行为记录，推荐了20套可快速出售的房源操作记录越多，我们的推荐越精准哦！";
+
+/* Class = "UILabel"; text = "查看"; ObjectID = "xxJ-G5-WRH"; */
+"xxJ-G5-WRH.text" = "查看";

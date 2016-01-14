@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardView">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="206"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KHA-kx-7lZ">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="iOh-1A-UAz"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2r-rA-qCF">
+                    <rect key="frame" x="25" y="119" width="147" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Fio-f0-drX"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="147" id="vZp-BD-0oZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="豪华精装大厦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejc-gP-E7k">
+                    <rect key="frame" x="25" y="155" width="160" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="BgT-Mi-wQ0"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="pZe-DU-Gu8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="海峡国际社区/三房两厅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbK-kN-F28">
+                    <rect key="frame" x="25" y="180" width="160" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="CWH-eb-MFn"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="pVV-or-Oub"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YbK-kN-F28" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="ImH-nM-2Jn"/>
+                <constraint firstItem="B2r-rA-qCF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="PI3-zc-mJ4"/>
+                <constraint firstItem="B2r-rA-qCF" firstAttribute="centerY" secondItem="KHA-kx-7lZ" secondAttribute="centerY" constant="54.5" id="S51-k1-nbp"/>
+                <constraint firstItem="KHA-kx-7lZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ijM-0q-mOx"/>
+                <constraint firstItem="KHA-kx-7lZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="koU-fr-7wJ"/>
+                <constraint firstItem="YbK-kN-F28" firstAttribute="top" secondItem="ejc-gP-E7k" secondAttribute="bottom" constant="5" id="tR7-O9-SRf"/>
+                <constraint firstAttribute="trailing" secondItem="KHA-kx-7lZ" secondAttribute="trailing" id="wCA-bO-gMr"/>
+                <constraint firstItem="ejc-gP-E7k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="ww2-PN-jI8"/>
+                <constraint firstItem="ejc-gP-E7k" firstAttribute="top" secondItem="KHA-kx-7lZ" secondAttribute="bottom" constant="5" id="zwK-7H-hGX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="KHA-kx-7lZ" id="5b1-35-a6j"/>
+                <outlet property="priceLbl" destination="B2r-rA-qCF" id="77e-Dh-RZ7"/>
+            </connections>
+            <point key="canvasLocation" x="331" y="281"/>
+        </view>
+    </objects>
+</document>

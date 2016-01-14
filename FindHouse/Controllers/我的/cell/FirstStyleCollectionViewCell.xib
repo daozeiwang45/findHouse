@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellFirst" id="gTV-IL-0wX" customClass="FirstStyleCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="201" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="201" height="137"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mixture.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Wx-LG-Kdb">
+                        <rect key="frame" x="65" y="15" width="72" height="72"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="9Wx-LG-Kdb" secondAttribute="height" multiplier="1:1" id="kbM-fn-Bee"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="找医院" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHT-X1-zrK">
+                        <rect key="frame" x="0.0" y="92" width="201" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="y6o-dw-kBe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="9Wx-LG-Kdb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="9EG-xA-wFd"/>
+                <constraint firstItem="SHT-X1-zrK" firstAttribute="top" secondItem="9Wx-LG-Kdb" secondAttribute="bottom" constant="5" id="BhR-Xm-7ch"/>
+                <constraint firstAttribute="bottom" secondItem="9Wx-LG-Kdb" secondAttribute="bottom" constant="50" id="Egr-HI-ofo"/>
+                <constraint firstAttribute="trailing" secondItem="SHT-X1-zrK" secondAttribute="trailing" id="FHs-fj-L8i"/>
+                <constraint firstItem="9Wx-LG-Kdb" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="NmZ-1F-aHk"/>
+                <constraint firstItem="SHT-X1-zrK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Oip-NB-tDs"/>
+                <constraint firstItem="SHT-X1-zrK" firstAttribute="centerX" secondItem="9Wx-LG-Kdb" secondAttribute="centerX" id="VD1-Lv-HGY"/>
+            </constraints>
+            <size key="customSize" width="201" height="137"/>
+            <connections>
+                <outlet property="imgView" destination="9Wx-LG-Kdb" id="BQC-nO-mhN"/>
+                <outlet property="tittleLab" destination="SHT-X1-zrK" id="26R-uu-TCU"/>
+            </connections>
+            <point key="canvasLocation" x="423.5" y="271.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="mixture.png" width="58" height="58"/>
+    </resources>
+</document>

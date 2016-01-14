@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UncheckAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idCard_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="gRH-zZ-Na6">
+                    <rect key="frame" x="123" y="143" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="ARO-bh-7QA"/>
+                        <constraint firstAttribute="height" constant="75" id="MFN-2P-sPW"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未完成身份验证" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShT-UP-ldU">
+                    <rect key="frame" x="115" y="238" width="90" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="FiV-CL-wwm"/>
+                        <constraint firstAttribute="width" constant="90" id="J4D-ol-beG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="完善真实身份信息后方可签约" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISC-7Q-jIu">
+                    <rect key="frame" x="78" y="262" width="163" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="BVY-zJ-iil"/>
+                        <constraint firstAttribute="width" constant="163" id="eln-a4-Zs3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVP-wH-yas">
+                    <rect key="frame" x="100" y="313" width="121" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="Pbp-Ae-1eP"/>
+                        <constraint firstAttribute="width" constant="121" id="ptG-jZ-WKJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.96851204759999998" green="1" blue="0.084328892510000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3SR-xD-rPS">
+                    <rect key="frame" x="131" y="358" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="NuV-7r-b40"/>
+                        <constraint firstAttribute="height" constant="60" id="m9D-uz-gwh"/>
+                    </constraints>
+                    <state key="normal" image="cross_white.png"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ISC-7Q-jIu" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7DZ-at-fwC"/>
+                <constraint firstItem="ShT-UP-ldU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JQK-DO-3fk"/>
+                <constraint firstItem="ISC-7Q-jIu" firstAttribute="top" secondItem="ShT-UP-ldU" secondAttribute="bottom" constant="3" id="gkI-oE-oP8"/>
+                <constraint firstItem="gRH-zZ-Na6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hWC-Ix-UdI"/>
+                <constraint firstItem="3SR-xD-rPS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="1" id="jnU-C5-Jpp"/>
+                <constraint firstItem="ShT-UP-ldU" firstAttribute="top" secondItem="gRH-zZ-Na6" secondAttribute="bottom" constant="20" id="nia-pN-WkO"/>
+                <constraint firstItem="gVP-wH-yas" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="r44-xu-uYR"/>
+                <constraint firstItem="gVP-wH-yas" firstAttribute="top" secondItem="ISC-7Q-jIu" secondAttribute="bottom" constant="30" id="taE-Ql-88b"/>
+                <constraint firstItem="3SR-xD-rPS" firstAttribute="top" secondItem="gVP-wH-yas" secondAttribute="bottom" constant="30" id="wyL-bu-Ex4"/>
+                <constraint firstAttribute="bottom" secondItem="3SR-xD-rPS" secondAttribute="bottom" constant="62" id="zxN-Gi-GDb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="closeBtn" destination="3SR-xD-rPS" id="36u-kr-TJk"/>
+                <outlet property="willCheckBtn" destination="gVP-wH-yas" id="cZU-q0-4gt"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross_white.png" width="31" height="31"/>
+        <image name="idCard_blue.png" width="75" height="75"/>
+    </resources>
+</document>

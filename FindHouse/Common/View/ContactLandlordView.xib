@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jRu-OP-Dld" customClass="ContactLandlordView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="el7-yx-1eK">
+                    <rect key="frame" x="161" y="160" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="LYW-HS-tmY"/>
+                        <constraint firstAttribute="width" constant="60" id="nC7-pd-Yky"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="phone.png"/>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAm-gq-oVM">
+                    <rect key="frame" x="161" y="230" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="K3q-a4-u5Q"/>
+                        <constraint firstAttribute="height" constant="60" id="TG3-x2-hXn"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="chat.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HAm-gq-oVM" secondAttribute="trailing" constant="99" id="Plm-1j-hy5"/>
+                <constraint firstItem="HAm-gq-oVM" firstAttribute="top" secondItem="el7-yx-1eK" secondAttribute="bottom" constant="10" id="QoM-xy-c8d"/>
+                <constraint firstAttribute="trailing" secondItem="el7-yx-1eK" secondAttribute="trailing" constant="99" id="s13-bP-HHC"/>
+                <constraint firstAttribute="bottom" secondItem="HAm-gq-oVM" secondAttribute="bottom" constant="190" id="zLt-Pq-fOt"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="landNumBtn" destination="el7-yx-1eK" id="YiQ-Yz-BKp"/>
+                <outlet property="onlineBtn" destination="HAm-gq-oVM" id="6zz-6b-G47"/>
+            </connections>
+            <point key="canvasLocation" x="332" y="315"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chat.png" width="60" height="60"/>
+        <image name="phone.png" width="60" height="60"/>
+    </resources>
+</document>
